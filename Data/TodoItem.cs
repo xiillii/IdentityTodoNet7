@@ -6,5 +6,7 @@
         public string? Task { get; set; }
         public bool Complete { get; set; }
         public string? Owner { get; set; }
+        public DateTimeOffset Added { get; set; }
+        public DateTimeOffset? Completed { get; set;}
     }
 }
